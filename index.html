@@ -21,8 +21,11 @@
     <div class="container d-grid gap-3 mt-4">
       <div class="row bg-success">
         <div class="col bg-secondary">name</div>
-        <div class="col-sm-7 bg-danger">menu</div>
+        <div class="col-lg-7 bg-danger d-none d-lg-inline d-md-inline">
+          menu
+        </div>
         <div class="col bg-warning">dropdown</div>
+        <div class="text-center d-none d-sm-inline d-md-none">menu</div>
       </div>
       <div class="row">
         <div class="col mt-2 px-0 mx-0">
@@ -40,7 +43,7 @@
             </div>
           </div>
           <div class="col-lg-3 d-lg-inline d-md-none d-sm-none">
-            <div class="me-2 text-center bg-primary h-100">
+            <div class="me-lg-2 me-md-0 text-center bg-primary h-100">
               <img
                 class="rounded-pill mt-4 pe-2 ps-4"
                 src="./pictures/1278511877.jpeg"
@@ -192,15 +195,14 @@
           </div>
         </div>
       </div>
-      <div class="row bg-secondary flex-sm-column">
+      <div class="row bg-secondary flex-sm-column flex-md-row flex-lg-row">
         <div class="col d-lg-flex d-md-flex col-lg-2 text-center">
           <div class="col">footer</div>
           <div class="col">text1</div>
           <div class="col">footer</div>
           <div class="col">text2</div>
         </div>
-        <div class="col"></div>
-        <div class="col d-lg-flex d-md-flex text-end">
+        <div class="col d-lg-flex d-md-flex text-center">
           <div class="col">footer</div>
           <div class="col">text3</div>
         </div>
